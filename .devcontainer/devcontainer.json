@@ -6,6 +6,6 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "forwardPorts": [8501],
-  "postCreateCommand": "pip install streamlit",
+  "postCreateCommand": "pip install streamlit; streamlit hello",
   "appPort": 8501
 }
