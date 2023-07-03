@@ -1,11 +1,11 @@
 {
-  "name": "Streamlit",
-  "image": "python:3.11",
-  "extensions": ["ms-python.python", "stremlit.streamlit-vscode"],
+  "name": "Gradio",
+  "image": "python:3.9",
+  "extensions": ["ms-python.python"],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "forwardPorts": [8501],
-  "postCreateCommand": "pip install streamlit; streamlit hello",
-  "appPort": 8501
+  "forwardPorts": [7860],
+  "postCreateCommand": "pip install gradio",
+  "appPort": 7860
 }
