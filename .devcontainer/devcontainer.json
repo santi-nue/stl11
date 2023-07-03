@@ -1,6 +1,6 @@
 {
   "name": "Streamlit",
-  "image": "python:3.9",
+  "image": "python:3.11",
   "extensions": ["ms-python.python", "stremlit.streamlit-vscode"],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
