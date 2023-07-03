@@ -6,6 +6,6 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "forwardPorts": [7860],
-  "postCreateCommand": "pip install gradio; python prueba1.py",
+  "postCreateCommand": "pip install gradio",
   "appPort": 7860
 }
