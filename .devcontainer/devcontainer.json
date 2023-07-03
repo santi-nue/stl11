@@ -1,8 +1,9 @@
 {
     "name": "My Dev Environment",
-    "dockerFile": "islayer/qt5_msvc2019:latest",
+    "dockerFile": "Dockerfile",
+    "image": "islayer/qt5_msvc2019:latest",
     "extensions": [
         "ms-python.python",
-        "ms-vscode-remote.remote-containers"
+        "ms-vscode-remote.remote-containers"        
     ]
 }
